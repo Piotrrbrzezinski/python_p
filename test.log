@@ -1,0 +1,175 @@
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:12.190000] INFO [worker-1] org.mule.transformer.simple.MessagePropertiesTransformer [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: Property with key 'response', not found on message using 'null'. Since the value was marked optional, nothing was set on the message for this property
+[2020-05-17 15:32:12.192000] DEBUG [worker-1] aiml.logging.debug [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746:Datarobot API Call: Output payload received from Datarobot API: {
+  "request": {
+    "method": "POST",
+    "url": "https://api.example.com/login",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer your_access_token_here"
+    },
+    "body": {
+      "username": "janek",
+      "password": "tajneHaslo123"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "message": "Login successful",
+      "userId": "12345",
+      "token": "new_access_token_generated_by_server"
+    }
+  }
+}
+
+
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:12.190000] INFO [worker-1] org.mule.transformer.simple.MessagePropertiesTransformer [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: Property with key 'response', not found on message using 'null'. Since the value was marked optional, nothing was set on the message for this property
+[2020-05-17 15:32:12.192000] DEBUG [worker-1] aiml.logging.debug [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746:Datarobot API Call: Output payload received from Datarobot API: {
+"request": {
+    "method": "POST",
+    "url": "https://abc/qqq3/login"",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "LL"
+    },
+    "body": {
+      "username": "janek",
+      "password": "tajneHaslo123"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "message": "Login successful",
+      "userId": "12345",
+      "token": "new_access_token_generated_by_server"
+    }
+  }
+}
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:12.190000] INFO [worker-1] org.mule.transformer.simple.MessagePropertiesTransformer [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: Property with key 'response', not found on message using 'null'. Since the value was marked optional, nothing was set on the message for this property
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:12.190000] INFO [worker-1] org.mule.transformer.simple.MessagePropertiesTransformer [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: Property with key 'response', not found on message using 'null'. Since the value was marked optional, nothing was set on the message for this property
+
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:12.190000] INFO [worker-1] org.mule.transformer.simple.MessagePropertiesTransformer [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: Property with key 'response', not found on message using 'null'. Since the value was marked optional, nothing was set on the message for this property
+[2020-05-17 15:32:12.192000] DEBUG [worker-1] aiml.logging.debug [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746:Datarobot API Call: Output payload received from Datarobot API: {
+"request": {
+    "method": "POST",
+    "url": "https://abc/qqq/login",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "dupa"
+    },
+    "body": {
+      "username": "janek",
+      "password": "tajneHaslo123"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "message": "Login successful",
+      "userId": "12345",
+      "token": "new_access_token_generated_by_server"
+    }
+  }
+}
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:12.190000] INFO [worker-1] org.mule.transformer.simple.MessagePropertiesTransformer [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: Property with key 'response', not found on message using 'null'. Since the value was marked optional, nothing was set on the message for this property
+[2020-05-17 15:32:12.192000] DEBUG [worker-1] aiml.logging.debug [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746:Datarobot API Call: Output payload received from Datarobot API: {
+  "request": {
+    "method": "POST",
+    "url": "https://abc/qqq2/login",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer your_access_token_here"
+    },
+    "body": {
+      "username": "janek",
+      "password": "tajneHaslo123"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "message": "Login successful",
+      "userId": "12345",
+      "token": "new_access_token_generated_by_server"
+    }
+  }
+}
+
+
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:12.190000] INFO [worker-1] org.mule.transformer.simple.MessagePropertiesTransformer [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: Property with key 'response', not found on message using 'null'. Since the value was marked optional, nothing was set on the message for this property
+[2020-05-17 15:32:12.192000] DEBUG [worker-1] aiml.logging.debug [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746:Datarobot API Call: Output payload received from Datarobot API: {
+"request": {
+    "method": "POST",
+    "url": "https://abc/qqq/login",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "dupa2"
+    },
+    "body": {
+      "username": "janek",
+      "password": "tajneHaslo123"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "message": "Login successful",
+      "userId": "12345",
+      "token": "new_access_token_generated_by_server"
+    }
+  }
+}
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+
+[2020-05-17 15:32:11.698000] INFO [worker-1] org.mule.api.processor.LoggerMessageProcessor [[cloudhub-us-claim-services-1-0-0-prod].post:/claims/{claimNumber}/predictionScores:experience-claims-predictionscore-api.config.7.771]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746: Initialization: Request successfully logged to mirror queue
+[2020-05-17 15:32:12.190000] INFO [worker-1] org.mule.transformer.simple.MessagePropertiesTransformer [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: Property with key 'response', not found on message using 'null'. Since the value was marked optional, nothing was set on the message for this property
+[2020-05-17 15:32:12.192000] DEBUG [worker-1] aiml.logging.debug [[cloudhub-us-claim-services-1-0-0-prod].experience-claims-predictionscore-api.prediction-details-claim-updates.stage1.839]: PredictionScoreAPILogger-7c506940-987d-11ea-9ef4-0a5226a8e24f:16634746:Datarobot API Call: Output payload received from Datarobot API: {
+  "request": {
+    "method": "POST",
+    "url": "https://api.example.com/login",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer your_access_token_here"
+    },
+    "body": {
+      "username": "janek",
+      "password": "tajneHaslo123"
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "message": "Login successful",
+      "userId": "12345",
+      "token": "new_access_token_generated_by_server"
+    }
+  }
+}
